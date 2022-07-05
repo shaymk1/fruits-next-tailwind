@@ -5,7 +5,15 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				ovsyanka: "'ovsyanka', 'Grotesque'",
+				jonesy: "'jonesy' , 'script'",
+				basting: "'basting', 'script'",
+				higelak: "'higelak', 'script'",
+				fondue: "'fondue', 'script'",
+			},
+		},
 	},
 	plugins: [],
 };
