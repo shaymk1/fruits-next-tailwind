@@ -1,0 +1,136 @@
+L
+steps for navbar:
+
+1. make an  array of objects that you need to include:
+   //const links =[
+    {
+        id:1,
+        link:'home'
+    },
+     {
+        id:2,
+        link:'about'
+    }
+   ]
+
+2.menus:
+// container div for desk-top and mobile menu: 
+
+<div className="w-full h-20 fixed text-white  duration-300 ease-in"
+ //////logo//////:
+    //logo-container div className="flex justify-between item-center w-full h-full max-w-screen-xl mx-auto p-4"
+    //get the Link href = "/#home" 
+    //wrap your h1/image within that Link like so: 
+        // <Link href = "/home">
+          //h1 className="font-higelak uppercase text-4xl text-rose-400  cursor-pointer hover:text-white font-extrabold  "
+        //</Link >
+////////menu-items/////
+     //div container to wrap the ul in:
+        //<div className="  ml-10 text-sm uppercase cursor-pointer  ">
+					<ul className="hidden space-x-6 md:flex">
+                    ////loop through the li list:
+                    {
+                      links.map(({id, link})=>{
+                            <Link key = {id} href={`/#${link}`}
+
+                            
+                                    <li className="hover:text-rose-400 tracking-widest">{link}</li>
+
+                                    </Li>
+                             </Link>
+                        })
+
+                    }
+                    </ul>
+        
+        {/**** mobile-menu-start ****/}
+
+//before const list=[], we need to write:
+//const [navigation, setNavigation] = useState(false);
+
+// after the ul..
+// logic says if there is no navigation, onclick please set the navigation to true like this:
+    {!navigation && (
+						<div
+							className="md:hidden cursor-pointer"
+							onClick={() => setNavigation(true)}>
+							<FaBars size={30} />
+						</div>
+					)}
+
+            </div>// this is the closing div for the menu items container
+		</div>// this is the closing div for the log container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //</div>
+
+    
+
