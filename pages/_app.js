@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -7,6 +8,7 @@ function MyApp({ Component, pageProps }) {
 			<div className="min-h-screen bg-slate-900">
 				<Navbar />
 				<Component {...pageProps} />
+                <Footer/>
 			</div>
 		</>
 	);

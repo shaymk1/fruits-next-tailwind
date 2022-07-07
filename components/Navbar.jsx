@@ -63,13 +63,13 @@ const Navbar = () => {
 			<div
 				className={
 					navigation
-						? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70 backdrop:blur"
+						? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70 backdrop:blur "
 						: ""
 				}>
 				<div
 					className={
 						navigation
-							? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-rose-400 to-orange-200 text-white p-10 ease-in duration-500"
+							? "fixed left-0 top-0 w-4/5  h-full bg-gradient-to-r from-rose-400 to-orange-200 text-white p-10 ease-in duration-500"
 							: "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
 					}>
 					{/**** mobile-menu-title-container ****/}
