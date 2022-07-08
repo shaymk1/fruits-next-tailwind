@@ -1,0 +1,37 @@
+//nav:
+
+const Navbar = () => {
+	const links = [
+		 {
+		 	id: 1,
+			url: "/",
+			link: "Home",
+		 },
+         ]
+
+
+   ///medium menu:
+      //// container div with image div or hi tag for the logo and another div for the ul menu like so:
+      //<div className ="flex justify-between items-center mx-auto px-4 h-24 max-w-[1024px]">
+           //logo
+           <div>
+                <Link href ="#/home">
+                    <Image src="/pop-water.png"
+                                    alt="logo"
+                                    width="20"
+                                    height="20"
+                                    className="hover:bg-white cursor-pointer"/>
+                </Link> 
+           </div>
+               //menu-items    
+           <div>
+                  <ul className="hidden space-x-6 font-poppins font-bold cursor-pointer md:flex ">
+					{links.map(({ link, id }) => (
+						<Link key={id} href={`/#${link}`}>
+							<li className="p-4 hover:text-[#f28482]">{link}</li>
+						</Link>
+					))}
+				</ul>
+           </div>
+
+     </div>    

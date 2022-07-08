@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaFacebook, FaInstagramSquare, FaTwitter } from "react-icons/fa";
 const Footer = () => {
 	return (
-		<div className="h-60">
+		<div className="h-60 bg-[#606c38] pt-20 py-8 mx-auto">
 			{/**** social-links-container ****/}
 			<div className="grid grid-cols-3 mx-auto w-4/5 gap-10">
 				{/**** facebook ****/}
