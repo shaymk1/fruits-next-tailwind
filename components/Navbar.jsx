@@ -22,7 +22,7 @@ const Navbar = () => {
 		},
 	];
 	return (
-		//menu-container
+		//menu-container 
 		<div className="flex justify-between items-center h-24  max-w-[1240px] mx-auto px-4 text-white uppercase ">
 			{/**** menu-items-log ****/}
 			<div className="hover:text-white">

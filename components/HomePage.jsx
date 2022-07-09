@@ -4,6 +4,26 @@ import yellowBall from '../public/yellow-balls.jpg'
 
 const HomePage = () => {
   return (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 		<div className="flex flex-col items-center justify-center mx-auto  space-y-4 md:flex-row md:space-x-4 md:space-y-0 p-4 m-4 text-white border-2  border-yellow-500 min-h-screen ml-4 mr-4 my-4 relative md:text-left ">
 			<div>
 				<Image
