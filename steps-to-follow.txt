@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
    ///medium menu:
-      //// container div with image div or hi tag for the logo and another div for the ul menu like so:
+      //// container div with image div or h1 tag for the logo and another div for the ul menu like so:
       //<div className ="flex justify-between items-center mx-auto px-4 h-24 max-w-[1024px]">
            //logo
            <div>

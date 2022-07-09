@@ -13,7 +13,7 @@ module.exports = {
 				higelak: "'higelak', 'script'",
 				fondue: "'fondue', 'script'",
 				veggy: "'veggy', 'display'",
-				
+				musicals: "'musicals', 'script'",
 			},
 		},
 	},

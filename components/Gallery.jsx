@@ -82,9 +82,11 @@ const About = () => {
 		<>
 			<div className="flex flex-col items-center justify-center min-h-screen pb-0 py-0">
 				<div className="text-white uppercase mt-8 mb-2 py-6  tracking-wide leading-3 ">
-					<h1 className="text-5xl font-veggy">
-					Summer 
-						{/*<span className="font-higelak font-extrabold">Summer</span> */}
+					<h1 className=" text-white font-extrabold md:text-6xl font-ovsyanka">
+						Summer{" "}
+						<span className="text-yellow-400 origin-center font-higelak tracking-widest font-semibold ">
+							Vibes{" "}
+						</span>
 					</h1>
 				</div>
 				{/*gallery container */}
