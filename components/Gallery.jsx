@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { FcBookmark } from "react-icons/fc";
+import cherries from "../public/images/cherries.jpg";
 import twoDragons from "../public/images/2-dragons.jpg";
 import dragon from "../public/images/dragon.jpg";
 import mango from "../public/images/mango.jpg";
@@ -10,6 +11,7 @@ import pawPaw from "../public/images/paw-paw.jpg";
 import peach from "../public/images/peach.jpg";
 import pineAple from "../public/images/pineaple.jpg";
 import lemon from "../public/lemon.jpg";
+import harnat from "../public/harnat.jpg";
 import lemonSlice from '../public/images/lemon-slice.jpg'
 import fig from '../public/images/figs.jpg'
 import strawBerry from '../public/images/strawberry.jpg'
@@ -17,7 +19,7 @@ const About = () => {
 	const images = [
 		{
 			key: 1,
-			imageSrc: "fig",
+			imageSrc: "cherries",
 			title: "lemon sliced ",
 			description: "love",
 		},
@@ -79,12 +81,15 @@ const About = () => {
 	return (
 		<>
 			<div className="flex flex-col items-center justify-center min-h-screen pb-0 py-0">
+				<div className="text-white uppercase mt-8 mb-2 py-6  tracking-wide leading-3 ">
+					<h1 className="text-5xl">I love Summer </h1>
+				</div>
 				{/*gallery container */}
 
 				<div className=" grid gap-y-2 gap-x-4 md:grid-cols-3 ">
 					{/*image-1 */}
 					<div className="relative group w-72 py-4">
-						<Image src={twoDragons} alt="2 dragons" />
+						<Image src={cherries} alt="2 dragons" />
 						<div className="absolute bottom-0 left-0 right-0 p-2 px-4 my-5 py-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
 							<div className="flex justify-between w-full">
 								<div className="font-normal ">
@@ -165,7 +170,7 @@ const About = () => {
 					</div>
 					{/*image-6 */}
 					<div className="relative group w-72 py-4">
-						<Image src={peach} alt="2 dragons" />
+						<Image src={harnat} alt="2 dragons" />
 						<div className="absolute bottom-0 left-0 right-0 p-2 px-4 my-5 py-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
 							<div className="flex justify-between w-full">
 								<div className="font-normal ">
