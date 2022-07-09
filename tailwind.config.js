@@ -12,6 +12,7 @@ module.exports = {
 				basting: "'basting', 'script'",
 				higelak: "'higelak', 'script'",
 				fondue: "'fondue', 'script'",
+				veggy: "'veggy', 'display'",
 				
 			},
 		},

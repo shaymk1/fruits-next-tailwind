@@ -28,11 +28,11 @@ const Navbar = () => {
 			<div className="hover:text-white">
 				<Link href="/#home">
 					<Image
-						src="/pop-water.png"
+						src="/pop.png"
 						alt="logo"
 						width="20"
 						height="20"
-						className="hover:bg-white cursor-pointer"
+						className="hover:text-rose-500 cursor-pointer"
 					/>
 				</Link>
 			</div>

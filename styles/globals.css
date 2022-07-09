@@ -3,8 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-dark: @layer base {
+@layer base {
 	body {
-		background-color: #132a13;
+		background-color: #283618;
 	}
 } ;
